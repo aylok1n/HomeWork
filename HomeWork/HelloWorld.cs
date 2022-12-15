@@ -4,9 +4,10 @@ namespace HomeWork
 {
     class HelloWorld
     {
-        static void Main(string[] args)
+        public static void Start()
         {
             Console.WriteLine("Hello World!");
         }
     }
+   
 }
