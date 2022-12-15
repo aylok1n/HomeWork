@@ -8,6 +8,10 @@ namespace HomeWork
         {
             Console.WriteLine("1 - Hello world");
             Console.WriteLine("2 - Tic Tac Toe");
+            Console.WriteLine("3 - PhoneBook");
+
+
+            Console.WriteLine("0 - close");
             string input = Console.ReadLine();
 
             switch (input)
@@ -22,7 +26,13 @@ namespace HomeWork
                         TicTacToe.Start();
                         return;
                     }
-                default:
+                case "3":
+                    {
+                        PhoneBook.Start();
+                        return;
+                    }
+
+                case "0":
                     {
                         return;
                     }
